@@ -1,24 +1,72 @@
-# superstore_sales_analysis
+# Superstore Sales Analysis
 
--Overview
-End-to-end retail sales analysis project using Excel, SQL and Tableau
+## 📊 Project Overview
+This project analyses retail sales data from a Superstore dataset to uncover trends in revenue, profit and product performance.
 
--Tools Used
- -Excel - Data cleaning and prep
- -SQL - Aggregation and KPI queries
- -Tableau - Interactive Dashboard visualisations
+The goal was to simulate a real-world business scenario by:
+- Cleaning raw data in Excel
+- Performing analysis using SQL
+- Building an executive dashboard in Tableau
 
--Key Insights
- -Sales show growth year on year
- -Copiers and phones generate the highest profits
- -New York is the top-performing city by profit
+---
 
--Process
- 1. Cleaned raw dataset in Excel
- 2. Imported dataset into SQL and wrote aggregation queries
- 3. Built am interactive dashboard in Tableau with KPIs and filters
+## 🛠 Tools Used
+- Excel (Data Cleaning & Transformation)
+- MySQL (Data Analysis & Aggregations)
+- Tableau Public (Dashboard & Visualisation)
 
--Files Included
- -'Data' - raw and clean datasets
- -'SQL' - Analysis queries
- -'Tableau' - Dashboard file and screenshot
+---
+
+## 🧹 Data Cleaning (Excel)
+Key cleaning steps:
+- Converted date columns to proper date format
+- Extracted Year, Month, and Quarter
+- Removed duplicates
+- Standardised currency and percentage formats
+- Checked for null values
+
+Cleaned dataset saved as:
+`cleaned_data/superstore_clean.csv`
+
+---
+
+## 🗃 SQL Analysis
+Key business queries included:
+- Total Sales & Total Profit
+- Sales by Year
+- Top Cities by Profit
+- Top Subcategories by Profit
+
+SQL file available here:
+`sql_queries/superstore_analysis.sql`
+
+---
+
+## 📈 Tableau Dashboard
+The dashboard provides:
+- KPI overview (Total Sales, Profit, Orders)
+- Monthly sales trend
+- Profit by subcategory
+- Top performing cities
+
+Dashboard file:
+`tableau_dashboard/Superstore Dashboard.twbx`
+
+Preview:
+
+![Dashboard Screenshot](screenshots/Dashboard.png)
+
+---
+
+## 📌 Key Insights
+- Sales increased steadily year-on-year.
+- A small number of cities generated a disproportionate share of profit.
+- Certain subcategories significantly outperformed others.
+
+---
+
+## 🚀 What This Project Demonstrates
+- End-to-end data workflow (Excel → SQL → Tableau)
+- Data cleaning and transformation skills
+- SQL aggregation and grouping
+- Dashboard design and storytelling
