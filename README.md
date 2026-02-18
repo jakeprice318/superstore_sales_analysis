@@ -1,6 +1,6 @@
 # Superstore Sales Analysis
 
-## 📊 Project Overview
+##  Project Overview
 This project analyses retail sales data from a Superstore dataset to uncover trends in revenue, profit and product performance.
 
 The goal was to simulate a real-world business scenario by:
@@ -10,14 +10,14 @@ The goal was to simulate a real-world business scenario by:
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - Excel (Data Cleaning & Transformation)
 - MySQL (Data Analysis & Aggregations)
 - Tableau Public (Dashboard & Visualisation)
 
 ---
 
-## 🧹 Data Cleaning (Excel)
+##  Data Cleaning (Excel)
 Key cleaning steps:
 - Converted date columns to proper date format
 - Extracted Year, Month, and Quarter
@@ -30,7 +30,7 @@ Cleaned dataset saved as:
 
 ---
 
-## 🗃 SQL Analysis
+##  SQL Analysis
 Key business queries included:
 - Total Sales & Total Profit
 - Sales by Year
@@ -42,7 +42,7 @@ SQL file available here:
 
 ---
 
-## 📈 Tableau Dashboard
+##  Tableau Dashboard
 The dashboard provides:
 - KPI overview (Total Sales, Profit, Orders)
 - Monthly sales trend
@@ -58,14 +58,14 @@ Preview:
 
 ---
 
-## 📌 Key Insights
+##  Key Insights
 - Sales increased steadily year-on-year.
 - A small number of cities generated a disproportionate share of profit.
 - Certain subcategories significantly outperformed others.
 
 ---
 
-## 🚀 What This Project Demonstrates
+##  What This Project Demonstrates
 - End-to-end data workflow (Excel → SQL → Tableau)
 - Data cleaning and transformation skills
 - SQL aggregation and grouping
